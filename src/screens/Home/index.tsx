@@ -11,7 +11,7 @@ export function Home(){
     const [groups, setGroups] = useState<string[]>([])
     return (
         <Container>
-            <Header/>
+            <Header />
             <Highlight
             title="Seus eventos"
             subtitle="clique no evento ou crie um"

@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { Home } from './src/screens/Home';
+import { NewEvent } from './src/screens/NewEvent';
 import { ThemeProvider } from 'styled-components/native';
 import theme from './src/theme';
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
-    <><StatusBar style='light' /><Home /></>
+    <><StatusBar style='light' /><NewEvent /></>
       
     </ThemeProvider>
   );
